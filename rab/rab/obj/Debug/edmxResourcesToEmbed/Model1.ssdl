@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="user59_dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MDK0701_Knigi">
+    <Key>
+      <PropertyRef Name="id_knigi" />
+    </Key>
+    <Property Name="id_knigi" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nazvanie" Type="varchar" MaxLength="50" />
+    <Property Name="Avtor" Type="varchar" MaxLength="50" />
+    <Property Name="God_izdaniya" Type="varchar" MaxLength="50" />
+    <Property Name="Kolichestvo_na_sklade" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MDK0701_Polzovyateli">
+    <Key>
+      <PropertyRef Name="id_polzovyatelya" />
+    </Key>
+    <Property Name="id_polzovyatelya" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Familiya" Type="varchar" MaxLength="50" />
+    <Property Name="Imya" Type="varchar" MaxLength="50" />
+    <Property Name="Otchestvo" Type="varchar" MaxLength="50" />
+    <Property Name="Adres" Type="varchar" MaxLength="50" />
+    <Property Name="Telefon" Type="varchar" MaxLength="50" />
+    <Property Name="Rol" Type="varchar" MaxLength="50" />
+    <Property Name="Login" Type="varchar" MaxLength="50" />
+    <Property Name="Parol" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MDK0701_Vidacha">
+    <Key>
+      <PropertyRef Name="id_vidachi" />
+    </Key>
+    <Property Name="id_vidachi" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_knigi" Type="int" />
+    <Property Name="id_polzovyatelya" Type="int" />
+    <Property Name="data_vidachi" Type="varchar" MaxLength="50" />
+    <Property Name="data_sdachi" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_MDK0701_Vidacha_MDK0701_Knigi">
+    <End Role="MDK0701_Knigi" Type="Self.MDK0701_Knigi" Multiplicity="0..1" />
+    <End Role="MDK0701_Vidacha" Type="Self.MDK0701_Vidacha" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MDK0701_Knigi">
+        <PropertyRef Name="id_knigi" />
+      </Principal>
+      <Dependent Role="MDK0701_Vidacha">
+        <PropertyRef Name="id_knigi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MDK0701_Vidacha_MDK0701_Polzovyateli">
+    <End Role="MDK0701_Polzovyateli" Type="Self.MDK0701_Polzovyateli" Multiplicity="0..1" />
+    <End Role="MDK0701_Vidacha" Type="Self.MDK0701_Vidacha" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MDK0701_Polzovyateli">
+        <PropertyRef Name="id_polzovyatelya" />
+      </Principal>
+      <Dependent Role="MDK0701_Vidacha">
+        <PropertyRef Name="id_polzovyatelya" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="user59_dbModelStoreContainer">
+    <EntitySet Name="MDK0701_Knigi" EntityType="Self.MDK0701_Knigi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MDK0701_Polzovyateli" EntityType="Self.MDK0701_Polzovyateli" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MDK0701_Vidacha" EntityType="Self.MDK0701_Vidacha" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_MDK0701_Vidacha_MDK0701_Knigi" Association="Self.FK_MDK0701_Vidacha_MDK0701_Knigi">
+      <End Role="MDK0701_Knigi" EntitySet="MDK0701_Knigi" />
+      <End Role="MDK0701_Vidacha" EntitySet="MDK0701_Vidacha" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MDK0701_Vidacha_MDK0701_Polzovyateli" Association="Self.FK_MDK0701_Vidacha_MDK0701_Polzovyateli">
+      <End Role="MDK0701_Polzovyateli" EntitySet="MDK0701_Polzovyateli" />
+      <End Role="MDK0701_Vidacha" EntitySet="MDK0701_Vidacha" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

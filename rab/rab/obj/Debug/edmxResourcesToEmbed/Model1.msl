@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="user59_dbModelStoreContainer" CdmEntityContainer="user59_dbEntities">
+    <EntitySetMapping Name="MDK0701_Knigi">
+      <EntityTypeMapping TypeName="user59_dbModel.MDK0701_Knigi">
+        <MappingFragment StoreEntitySet="MDK0701_Knigi">
+          <ScalarProperty Name="id_knigi" ColumnName="id_knigi" />
+          <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+          <ScalarProperty Name="Avtor" ColumnName="Avtor" />
+          <ScalarProperty Name="God_izdaniya" ColumnName="God_izdaniya" />
+          <ScalarProperty Name="Kolichestvo_na_sklade" ColumnName="Kolichestvo_na_sklade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MDK0701_Polzovyateli">
+      <EntityTypeMapping TypeName="user59_dbModel.MDK0701_Polzovyateli">
+        <MappingFragment StoreEntitySet="MDK0701_Polzovyateli">
+          <ScalarProperty Name="id_polzovyatelya" ColumnName="id_polzovyatelya" />
+          <ScalarProperty Name="Familiya" ColumnName="Familiya" />
+          <ScalarProperty Name="Imya" ColumnName="Imya" />
+          <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Parol" ColumnName="Parol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MDK0701_Vidacha">
+      <EntityTypeMapping TypeName="user59_dbModel.MDK0701_Vidacha">
+        <MappingFragment StoreEntitySet="MDK0701_Vidacha">
+          <ScalarProperty Name="id_vidachi" ColumnName="id_vidachi" />
+          <ScalarProperty Name="id_knigi" ColumnName="id_knigi" />
+          <ScalarProperty Name="id_polzovyatelya" ColumnName="id_polzovyatelya" />
+          <ScalarProperty Name="data_vidachi" ColumnName="data_vidachi" />
+          <ScalarProperty Name="data_sdachi" ColumnName="data_sdachi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
