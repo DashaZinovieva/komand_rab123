@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace rab
 {
@@ -15,6 +16,22 @@ namespace rab
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "1" && textBox2.Text == "1")
+            {
+
+                knigi f = new knigi();
+                f.Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("Неверный пароль.");
+            }
         }
     }
 }

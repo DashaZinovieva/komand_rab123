@@ -105,6 +105,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user59_dbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user59_dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user59_dbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user59_dbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user59_dbDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user59_dbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user59_dbDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user59_dbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user59_dbDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user59_dbDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="user59_dbDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>user59_dbDataSet5.xsd</DependentUpon>
+    </Compile>
     <Compile Include="vыdacha.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +182,72 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="user59_dbDataSet.xsc">
+      <DependentUpon>user59_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user59_dbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user59_dbDataSet.xss">
+      <DependentUpon>user59_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet1.xsc">
+      <DependentUpon>user59_dbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user59_dbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user59_dbDataSet1.xss">
+      <DependentUpon>user59_dbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet2.xsc">
+      <DependentUpon>user59_dbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user59_dbDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user59_dbDataSet2.xss">
+      <DependentUpon>user59_dbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet3.xsc">
+      <DependentUpon>user59_dbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user59_dbDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user59_dbDataSet3.xss">
+      <DependentUpon>user59_dbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet4.xsc">
+      <DependentUpon>user59_dbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user59_dbDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user59_dbDataSet4.xss">
+      <DependentUpon>user59_dbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet5.xsc">
+      <DependentUpon>user59_dbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="user59_dbDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>user59_dbDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="user59_dbDataSet5.xss">
+      <DependentUpon>user59_dbDataSet5.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

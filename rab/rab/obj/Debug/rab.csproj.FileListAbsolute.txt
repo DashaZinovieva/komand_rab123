@@ -1,0 +1,38 @@
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.csproj.AssemblyReference.cache
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.cklad.resources
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.Dob.resources
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.Form1.resources
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.knigi.resources
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.Properties.Resources.resources
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.vыdacha.resources
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.csproj.GenerateResource.cache
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.csproj.CoreCompileInputs.cache
+C:\Новая папка\komand_rab123\rab\rab\bin\Debug\rab.exe.config
+C:\Новая папка\komand_rab123\rab\rab\bin\Debug\rab.exe
+C:\Новая папка\komand_rab123\rab\rab\bin\Debug\rab.pdb
+C:\Новая папка\komand_rab123\rab\rab\bin\Debug\EntityFramework.dll
+C:\Новая папка\komand_rab123\rab\rab\bin\Debug\EntityFramework.SqlServer.dll
+C:\Новая папка\komand_rab123\rab\rab\bin\Debug\EntityFramework.xml
+C:\Новая папка\komand_rab123\rab\rab\bin\Debug\EntityFramework.SqlServer.xml
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.csproj.CopyComplete
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.exe
+C:\Новая папка\komand_rab123\rab\rab\obj\Debug\rab.pdb
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.cklad.resources
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.Dob.resources
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.Form1.resources
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.knigi.resources
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.Properties.Resources.resources
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.vыdacha.resources
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.csproj.GenerateResource.cache
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.exe
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.pdb
+C:\Users\User\Desktop\rab\rab\bin\Debug\rab.exe.config
+C:\Users\User\Desktop\rab\rab\bin\Debug\rab.exe
+C:\Users\User\Desktop\rab\rab\bin\Debug\rab.pdb
+C:\Users\User\Desktop\rab\rab\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\rab\rab\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\rab\rab\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\rab\rab\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\rab\rab\obj\Debug\rab.csproj.CopyComplete
